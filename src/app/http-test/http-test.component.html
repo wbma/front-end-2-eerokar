@@ -1,0 +1,7 @@
+<p>
+  {{someData}}
+</p>
+
+<p *ngFor="let image of imgUrl">
+  <img [src]="'http://media.mw.metropolia.fi/wbma/uploads/' + image.filename"/>
+</p>
